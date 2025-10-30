@@ -47,6 +47,20 @@ function App() {
     <div>
       <h1>Hello World</h1>
       <p>Put all your codes in assets/script.js</p>
+
+      <br/><br/>
+
+      <p>Data:</p>
+      <ul>
+        ${sampleData.map(item => (
+          `
+          <li>
+            <h2>${item.title}</h2>
+            <p>${item.description}</p>
+          </li>
+          `
+        ))}
+      <ul>
     </div>
   `;
 }
