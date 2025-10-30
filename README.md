@@ -1,4 +1,7 @@
-# This is a Template Project
+# Artificial React
 
-Use this if you want to make a vanilla web project using plain HTML, CSS, and JavaScript only.
-You can also use other libraries like JQuery.
+A vanilla web project that simulates coding in react, coding dynamically.
+
+## To run this project:
+1. Clone this repository `git clone https://github.com/khianvictorycalderon/Artificial-React.git`
+2. Open the `index.html` in your browser
