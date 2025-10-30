@@ -1,6 +1,9 @@
 function App() {
   return `
-    <h1>Hello World</h1>
+    <div>
+      <h1>Hello World</h1>
+      <p>Put all your codes in assets/script.js</p>
+    </div>
   `;
 }
 
