@@ -45,7 +45,7 @@ function App() {
 
   return `
     <div>
-      <h1>Hello World</h1>
+      <h1>Artificial React</h1>
       <p>Put all your codes in assets/script.js</p>
 
       <br/><br/>
@@ -57,9 +57,11 @@ function App() {
           <li>
             <h2>${item.title}</h2>
             <p>${item.description}</p>
+            <br/>
           </li>
           `
-        ))}
+          // joins removes the comma
+        )).join("")}
       <ul>
     </div>
   `;
